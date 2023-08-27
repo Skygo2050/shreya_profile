@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: skyblue;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+
+        .section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        h2 {
+            color: purple;
+            font-size: 18px;
+        }
+
+        /* ID selector */
+        #name {
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Class selector */
+        .hobbies,
+        .food,
+        .clothes,
+        .culture {
+            font-size: 16px;
+        }
+
+        .favorite-food {
+            color: blueviolet;
+            text-decoration :wavy;
+        }
+        a{
+            text-decoration:none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="shreya.jpeg" alt="Profile Picture" class="profile-img">
+        <h1>About Me</h1>
+    </header>
+    
+    <div class="profile-content">
+        <div class="section">
+            <h2>Name:</h2>
+            <!-- ID usage -->
+            <p id="name">Shreya Pal (Student of SYJC)</p>
+        </div>
+        
+        <div class="section">
+            <h2>Hobbies:</h2>
+            <!-- Class usage -->
+            <p class="hobbies">I love exploring. It's so fun to go on adventures and find new things. There's always something new to discover and experience. Whether it's going on hikes, finding cool places in my city, or going on road trips, exploring is always exciting.</p>
+        </div>
+        
+        <div class="section">   
+            <h2>Food:</h2>
+            <p class="food">I love Indian food, especially <a href="https://swadisht.life/en/"><span class="favorite-food">Chole Bhature</span></a>! It's so yummy! The spicy chickpeas curry with the fluffy fried bread is a perfect combination. Indian cuisine has so many delicious dishes. 🇮🇳🥘😋</p>
+                                        
+        </div>
+        
+        <div class="section">
+            <h2>Clothes:</h2>
+            <p class="clothes">I really enjoy wearing Indian traditional clothing and baggy, comfortable clothes. They have such a unique and elegant style. Traditional Indian outfits like sarees, kurtas, and pajamas are not only beautiful but also very comfortable to wear. Baggy clothes - I absolutely love wearing baggy clothes! They are so comfy and give such a relaxed and laid-back vibe. Baggy pants, oversized shirts, and flowy dresses are some of my favorites. They allow for freedom of movement and make me feel at ease throughout the day. It's always fun to express through clothing.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Culture:</h2>
+            <p class="culture">Indian culture is incredibly diverse and rich! It's a beautiful blend of traditions, languages, religions, and customs. From the vibrant festivals like Diwali and Holi to the delicious cuisine, like biryani and samosas, Indian culture is full of color and flavor. The traditional dances, like Bharatanatyam and Kathak, are mesmerizing to watch. Indian art, music, and architecture also have a unique charm. It's a culture that celebrates unity in diversity. 🇮🇳✨</p>
+        </div>
+    </div>
+</body>
+</html>
