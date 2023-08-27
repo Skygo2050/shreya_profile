@@ -20,7 +20,7 @@
         }
 
         .profile-img {
-            max-width: 150px;
+            max-width: 20%;
             border-radius: 50%;
         }
 
@@ -29,6 +29,11 @@
             padding: 20px;
             background-color: #f0f0f0;
             border-radius: 10px;
+        }
+
+        .profile-audio {
+            float: right;
+            margin-right: 20px;
         }
 
         h1 {
@@ -57,10 +62,11 @@
 
         .favorite-food {
             color: blueviolet;
-            text-decoration :wavy;
+            text-decoration: wavy;
         }
-        a{
-            text-decoration:none;
+
+        a {
+            text-decoration: none;
         }
 
     </style>
@@ -69,6 +75,14 @@
     <header>
         <img src="shreya.jpeg" alt="Profile Picture" class="profile-img">
         <h1>About Me</h1>
+           <!-- Audio tag -->
+           <div class="section profile-audio">
+            <h2>Profile Audio:</h2>
+            <audio controls>
+                <source src="shreyaa.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
     </header>
     
     <div class="profile-content">
@@ -99,6 +113,8 @@
             <h2>Culture:</h2>
             <p class="culture">Indian culture is incredibly diverse and rich! It's a beautiful blend of traditions, languages, religions, and customs. From the vibrant festivals like Diwali and Holi to the delicious cuisine, like biryani and samosas, Indian culture is full of color and flavor. The traditional dances, like Bharatanatyam and Kathak, are mesmerizing to watch. Indian art, music, and architecture also have a unique charm. It's a culture that celebrates unity in diversity. 🇮🇳✨</p>
         </div>
+
+     
     </div>
 </body>
 </html>
